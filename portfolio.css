@@ -1,0 +1,233 @@
+body {
+    background-color: rgb(221, 218, 218);
+}
+
+.header-sec {
+    background-color: rgb(51, 48, 48);
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.header-sec h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.header-sec ul {
+    list-style: none;
+}
+
+.header-sec ul li {
+    display: inline;
+    font-size: 18px;
+    color: rgb(199, 197, 193);
+}
+
+.header-sec nav a {
+    text-decoration: none;
+    padding: 20px;
+    font-size: 14px;
+    color: rgb(231, 224, 224);
+}
+
+.header-sec nav a:hover {
+    color: rgb(188, 188, 52);
+}
+
+#about-me {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+#about-me .avatar {
+    background-image: url(./images/img.jpg);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+}
+
+#about-me .project {
+    position: absolute;
+    background-color: rgb(94, 14, 170);
+    border-radius: 10px;
+    width: 270px;
+    height: 140px;
+    top: 140px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#skills {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#skills .skills-list {
+    background-color: aliceblue;
+    opacity: 0.7;
+    border-radius: 10px;
+}
+
+#skills .skills-list ul {
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+
+}
+
+#skills .skills-list ul li {
+    display: inline-block;
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(65, 153, 65);
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+#skills .skills-list ul li:hover {
+    transform: translateY(-10px);
+}
+
+#projects {
+    background-color: white;
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+}
+
+#projects .project1 {
+    position: relative;
+    background-color: rgb(210, 156, 22);
+    border-radius: 10px;
+    width: 270px;
+    height: 140px;
+    padding: 10px;
+    font-size: 12px;
+}
+
+#projects .project2 {
+    position: relative;
+    background-color: rgb(47, 22, 210);
+    border-radius: 10px;
+    width: 270px;
+    height: 140px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 12px;
+
+}
+
+#projects .project3 {
+    position: relative;
+    background-color: rgb(191, 66, 105);
+    border-radius: 10px;
+    height: 140px;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+#contact {
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#contact table td {
+    padding: 5px;
+}
+
+#contact table {
+    width: 100%;
+}
+
+#contact table .input1 {
+    width: 100%;
+    height: 30px;
+}
+
+#contact table textarea {
+    width: 100%;
+    height: 80px;
+}
+
+#contact table .btn {
+    border-radius: 10px;
+    font-size: 18px;
+    color: green;
+    border: 1px solid green;
+    background-color: white;
+    padding: 10px;
+}
+
+#contact table .btn:hover {
+    color: white;
+    background-color: green;
+}
+
+.back {
+    background-image: url(./images/arrow.png);
+    background-size: cover;
+    background-position: center;
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 20px;
+    right: 5px;
+
+}
+
+.footer-sec {
+    background-color: rgb(51, 48, 48);
+    padding: 10px;
+    margin: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footer-sec ul {
+    list-style: none;
+}
+
+.footer-sec ul li {
+    display: inline;
+    font-size: 18px;
+    color: rgb(199, 197, 193);
+}
+
+.footer-sec a {
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    color: rgb(231, 224, 224);
+}
+
+.footer-sec a:hover {
+    color: rgb(188, 188, 52);
+}
